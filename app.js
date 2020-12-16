@@ -5,8 +5,8 @@ const outputDiv = document.querySelector("#outputSection")
 //const url = "https://api.funtranslations.com/translate/mandalorian.json"
 
 function getTranslated(text, lang) {
-   const url = `http://localhost:3002/translate/${lang}.json`
-  //  const url = `https://api.funtranslations.com/translate/${lang}.json`
+   //const url = `http://localhost:3002/translate/${lang}.json`
+    const url = `https://api.funtranslations.com/translate/${lang}.json`
     return url + "?"+"text="+ text
 }
 
