@@ -6,9 +6,10 @@ body{
     color: rgb(0, 0, 0);
     width: 100%;
     height: 100vh;
+    margin: auto;
     }
-    .heading h1{
-        font-size: 4rem;
+    .heading{
+        font-size: 2rem;
         color: rgb(230,57,70);
         text-shadow: 1px 2px 3px black;
     }
@@ -48,5 +49,28 @@ body{
         width: 60%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+    }
+    @media only screen and (max-width: 450px){
+        .heading{
+            font-size: 1rem;
+        }
+        .inputSection{
+            width: 90%;
+        }
+        .buttons{
+            width: 90%;
+            
+        }
+        .inputSection input{
+            font-size: 0.8rem;
+        }
+        .inputBtn{
+            font-size: 0.6rem;
+        }
+        .outputSection{
+            width: 95%;
+        }
+        .outputSection h2{
+            font-size: 0.8rem;
+        }
     }
