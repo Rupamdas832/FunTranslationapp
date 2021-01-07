@@ -58,6 +58,12 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .preloader{
+        display: none;
+        height: 300px;
+        width: 400px;
+        margin-left: 15rem;
+    }
     @media only screen and (max-width: 450px){
         .heading{
             font-size: 0.8rem;
@@ -84,5 +90,10 @@ body{
         }
         .outputSection h2{
             font-size: 0.8rem;
+        }
+        .preloader{
+            height: 150px;
+            width: 200px;
+            margin-left: 3rem;
         }
     }
