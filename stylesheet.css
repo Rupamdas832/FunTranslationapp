@@ -57,12 +57,14 @@ body{
         width: 60%;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
     .preloader{
         display: none;
         height: 300px;
         width: 400px;
         margin-left: 15rem;
+        position: absolute;
     }
     @media only screen and (max-width: 450px){
         .heading{
